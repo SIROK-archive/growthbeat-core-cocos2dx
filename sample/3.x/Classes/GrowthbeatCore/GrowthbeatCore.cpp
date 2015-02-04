@@ -1,9 +1,9 @@
 //
-//	GrowthbeatCore.cpp
-//	growthbeatcore-cocos2dx
+//  GrowthbeatCore.cpp
+//  growthbeatcore-cocos2dx
 //
-//	Created by ######### on 2015/##/##.
-//	Copyright (c) 2015年 #########. All rights reserved.
+//  Created by Baekwoo Chung on 2015/02/04.
+//  Copyright (c) 2015 SIROK, Inc. All rights reserved.
 //
 
 #include "GrowthbeatCore.h"
