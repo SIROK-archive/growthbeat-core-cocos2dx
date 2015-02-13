@@ -171,14 +171,14 @@
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="growthbeat-core-cocos2dx3.null.31159645" name="growthbeat-core-cocos2dx3"/>
+		<project id="sample.null.31159645" name="sample"/>
 	</storageModule>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Default">
-			<resource resourceType="PROJECT" workspacePath="/growthbeat-core-cocos2dx3"/>
+			<resource resourceType="PROJECT" workspacePath="/sample"/>
 		</configuration>
 		<configuration configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="/growthbeat-core-cocos2dx3"/>
+			<resource resourceType="PROJECT" workspacePath="/sample"/>
 		</configuration>
 	</storageModule>
 </cproject>

@@ -9,9 +9,9 @@
 #include "ccConfig.h"
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
 
-# include "GrowthbeatCore.h"
+#include "GrowthbeatCore.h"
 
-# import "GrowthbeatCoreCCInternal.h"
+#import "GrowthbeatCoreCCInternal.h"
 
 #import <GrowthbeatCore/GrowthbeatCore.h>
 

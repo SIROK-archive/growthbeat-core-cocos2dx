@@ -6,8 +6,13 @@
 USING_NS_CC;
 USING_NS_GROWTHBEATCORE;
 
-AppDelegate::AppDelegate() {}
-AppDelegate::~AppDelegate() {}
+AppDelegate::AppDelegate()
+{
+}
+
+AppDelegate::~AppDelegate() 
+{
+}
 
 //if you want a different context,just modify the value of glContextAttrs
 //it will takes effect on all platforms
@@ -21,8 +26,7 @@ void AppDelegate::initGLContextAttrs()
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
-    
-    GrowthbeatCore::GetInstance()->initialize("OyTg8vZd4KTNQDJ5", "3EKydeJ0imxJ5WqS22FJfdVamFLgu7XA");
+    growthbeatcore::GrowthbeatCore::GetInstance()->initialize("APPLICATION_ID", "CREDENTIAL_ID");
     
     // initialize director
     auto director = Director::getInstance();
