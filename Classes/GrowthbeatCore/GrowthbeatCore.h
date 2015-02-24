@@ -19,9 +19,9 @@ class CC_DLL GrowthbeatCore
 private:
     GrowthbeatCore();
     static GrowthbeatCore* instance;
-    
+
 public:
-    static GrowthbeatCore* GetInstance();
+    static GrowthbeatCore* getInstance();
     void initialize(const std::string& applicationId, const std::string& credentialId);
 };
 

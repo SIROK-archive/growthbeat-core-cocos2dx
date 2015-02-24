@@ -12,7 +12,7 @@ NS_GROWTHBEATCORE_BEGIN
 
 GrowthbeatCore* GrowthbeatCore::instance = NULL;
 
-GrowthbeatCore* GrowthbeatCore::GetInstance() {
+GrowthbeatCore* GrowthbeatCore::getInstance() {
 
     //TODO :: 同期化Lock, Unlock
     if(NULL == instance) {

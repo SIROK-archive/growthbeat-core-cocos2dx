@@ -10,7 +10,7 @@ AppDelegate::AppDelegate()
 {
 }
 
-AppDelegate::~AppDelegate() 
+AppDelegate::~AppDelegate()
 {
 }
 
@@ -26,8 +26,8 @@ void AppDelegate::initGLContextAttrs()
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
-    growthbeatcore::GrowthbeatCore::GetInstance()->initialize("APPLICATION_ID", "CREDENTIAL_ID");
-    
+    growthbeatcore::GrowthbeatCore::getInstance()->initialize("APPLICATION_ID", "CREDENTIAL_ID");
+
     // initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
