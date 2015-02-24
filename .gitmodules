@@ -1,0 +1,9 @@
+[submodule "submodules/growthbeat-core-ios"]
+	path = submodules/growthbeat-core-ios
+	url = https://github.com/SIROK/growthbeat-core-ios.git
+[submodule "submodules/growthbeat-core-android"]
+	path = submodules/growthbeat-core-android
+	url = https://github.com/SIROK/growthbeat-core-android.git
+[submodule "submodules/cocos2d-x"]
+	path = submodules/cocos2d-x
+	url = https://github.com/cocos2d/cocos2d-x.git
