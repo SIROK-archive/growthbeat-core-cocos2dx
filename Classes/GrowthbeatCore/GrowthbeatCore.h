@@ -16,14 +16,15 @@ NS_GROWTHBEATCORE_BEGIN
 
 class CC_DLL GrowthbeatCore
 {
-private:
-    GrowthbeatCore();
-    static GrowthbeatCore* instance;
 
 public:
+	GrowthbeatCore();
 	~GrowthbeatCore();
     static GrowthbeatCore* getInstance();
     void initialize(const std::string& applicationId, const std::string& credentialId);
+
+private:
+    static GrowthbeatCore* instance;
 };
 
 NS_GROWTHBEATCORE_END

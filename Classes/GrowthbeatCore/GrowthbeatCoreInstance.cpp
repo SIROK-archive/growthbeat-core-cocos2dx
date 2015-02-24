@@ -17,8 +17,6 @@ GrowthbeatCore::~GrowthbeatCore() {
 }
 
 GrowthbeatCore* GrowthbeatCore::getInstance() {
-
-    //TODO :: 同期化Lock, Unlock
     if(NULL == instance) {
         instance = new GrowthbeatCore();
     }
