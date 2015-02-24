@@ -21,6 +21,7 @@ private:
     static GrowthbeatCore* instance;
 
 public:
+	~GrowthbeatCore();
     static GrowthbeatCore* getInstance();
     void initialize(const std::string& applicationId, const std::string& credentialId);
 };
